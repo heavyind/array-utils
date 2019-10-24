@@ -1,0 +1,23 @@
+{
+  "name": "hi-array-utils",
+  "version": "0.0.1",
+  "description": "A small array library to fix JavaScript.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaseries/hi-array-utils.git"
+  },
+  "keywords": [
+    "javascript",
+    "array"
+  ],
+  "author": "Chase Ries",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chaseries/hi-array-utils/issues"
+  },
+  "homepage": "https://github.com/chaseries/hi-array-utils#readme"
+}

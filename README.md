@@ -1,3 +1,4 @@
 # Heavy Industries array utilities
 
-*All the shit that's missing from JavaScript standard library.*
+A deliberately small library including some useful things missing from JavaScript.
+

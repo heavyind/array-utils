@@ -1,23 +1,31 @@
 {
-  "name": "hi-array-utils",
+  "name": "@heavyind/array-utils",
   "version": "0.0.1",
   "description": "A small array library to fix JavaScript.",
-  "main": "./lib/index.js",
+  "main": "./dist/array-utils.cjs.js",
+  "module": "./dist/array-utils.esm.js",
+  "unpkg": "./dist/array-utils.umd.js",
   "scripts": {
+    "watch": "rimraf dist && rollup -c ./build/config.js --watch",
+    "build": "rimraf dist && rollup -c ./build/config.js",
     "test": "test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chaseries/hi-array-utils.git"
+    "url": "git+https://github.com/heavyind/array-utils.git"
   },
   "keywords": [
     "javascript",
     "array"
   ],
-  "author": "Chase Ries",
+  "author": "Heavy Industries",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/chaseries/hi-array-utils/issues"
   },
-  "homepage": "https://github.com/chaseries/hi-array-utils#readme"
+  "homepage": "https://github.com/chaseries/hi-array-utils#readme",
+  "dependencies": {
+    "rimraf": "^3.0.0",
+    "rollup": "^1.27.9"
+  }
 }

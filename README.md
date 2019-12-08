@@ -21,7 +21,7 @@ yarn add @heavyind/array-utils
 Via unpkg (exposed as `HiArrayUtils`):
 
 ```
-<script src="https://unpkg.com@heavyind/array-utils"></script>
+<script src="https://unpkg.com/@heavyind/array-utils"></script>
 ```
 
 ## License

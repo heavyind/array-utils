@@ -1,6 +1,6 @@
 {
   "name": "@heavyind/array-utils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Array utilities used by Heavy Industries",
   "main": "./dist/array-utils.cjs.js",
   "module": "./dist/array-utils.esm.js",

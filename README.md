@@ -4,3 +4,4 @@ A deliberately small library including some useful things missing from JavaScrip
 
 A complete API documentation can be found [in the Wiki](https://github.com/chaseries/hi-array-utils/wiki/API-documentation).
 
+## Installation
